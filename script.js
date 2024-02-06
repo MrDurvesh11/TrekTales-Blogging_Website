@@ -50,7 +50,9 @@ $(document).ready(function(){
 
 
 
-        $('.blog3Content').html(data.blog3Content);
+        $('.blog3Content1').html(data.blog3Content1);
+        $('.blog3Content2').html(data.blog3Content2);
+
         $('.blog4Content').html(data.blog4Content);
         $('.blog5Content').html(data.blog5Content);
         $('.blog6Content').html(data.blog6Content);
