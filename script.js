@@ -32,7 +32,28 @@ $(document).ready(function(){
         $('.chead').html(data.chead);
         $('.csubhead').html(data.csubhead);
         $('.ccontent').html(data.ccontent);
-        $('.blog1Content').html(data.blog1Content);
+        $('.blog1Content1').html(data.blog1Content1);
+        $('.blog1Content2').html(data.blog1Content2);
+        $('.blog1Content3').html(data.blog1Content3);
+        $('.blog1Content4').html(data.blog1Content4);
+        $('.blog1Content5').html(data.blog1Content5);
+        $('.blog1Content6').html(data.blog1Content6);
+        $('.blog1Content7').html(data.blog1Content7);
+
+        $('.blog2Content1').html(data.blog2Content1);
+        $('.blog2Content2').html(data.blog2Content2);
+        $('.blog2Content3').html(data.blog2Content3);
+        $('.blog2Content4').html(data.blog2Content4);
+        $('.blog2Content5').html(data.blog2Content5);
+        $('.blog2Content6').html(data.blog2Content6);
+        $('.blog2Content7').html(data.blog2Content7);
+
+
+
+        $('.blog3Content').html(data.blog3Content);
+        $('.blog4Content').html(data.blog4Content);
+        $('.blog5Content').html(data.blog5Content);
+        $('.blog6Content').html(data.blog6Content);
         // $('.').html(data.);
         // $('.').html(data.);
 
