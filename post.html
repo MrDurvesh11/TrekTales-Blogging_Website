@@ -15,8 +15,11 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
          <!-- Including jquery-->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-         <script type="text/javascript" src="./script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./script.js"></script> 
+        <style>
+            #more {display: none;}
+        </style>
     </head>
     <body>
         <!-- Navigation-->
@@ -61,6 +64,7 @@
                         <a href="#!"><img class="img-fluid" src="./assets/img/b11.jpg"/></a>
                         <p class="blog1Content3"></p>
                         <a href="#!"><img class="img-fluid" src="./assets/img/b12.jpg"/></a>
+                        <span id="dots">...</span><span id="more">
                         <p class="blog1Content4"></p>
                         <a href="#!"><img class="img-fluid" src="./assets/img/b13.jpg"/></a>
                         <p class="blog1Content5"></p>
@@ -69,6 +73,8 @@
                         <a href="#!"><img class="img-fluid" src="./assets/img/b15.jpg"/></a>
                         <p class="blog1Content7"></p>
                         <a href="#!"><img class="img-fluid" src="./assets/img/b16.jpg"/></a>
+                        </span></p>
+                        <button onclick="myFunction()" id="myBtn">Read more</button>
                         
                         
                     </div>

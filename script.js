@@ -32,6 +32,7 @@ $(document).ready(function(){
         $('.chead').html(data.chead);
         $('.csubhead').html(data.csubhead);
         $('.ccontent').html(data.ccontent);
+
         $('.blog1Content1').html(data.blog1Content1);
         $('.blog1Content2').html(data.blog1Content2);
         $('.blog1Content3').html(data.blog1Content3);
@@ -48,23 +49,35 @@ $(document).ready(function(){
         $('.blog2Content6').html(data.blog2Content6);
         $('.blog2Content7').html(data.blog2Content7);
 
-
-
         $('.blog3Content1').html(data.blog3Content1);
         $('.blog3Content2').html(data.blog3Content2);
 
-        $('.blog4Content').html(data.blog4Content);
-        $('.blog5Content').html(data.blog5Content);
-        $('.blog6Content').html(data.blog6Content);
-        // $('.').html(data.);
-        // $('.').html(data.);
+        $('.blog4Content1').html(data.blog4Content1);
+        $('.blog4Content2').html(data.blog4Content2);
 
+        $('.blog5Content1').html(data.blog5Content1);
+        $('.blog5Content2').html(data.blog5Content2);
 
-
-
-
+        $('.blog6Content1').html(data.blog6Content1);
+        $('.blog6Content2').html(data.blog6Content2);
 
     }).fail(function(){
         console.log("Error");
     })
 })
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+  }

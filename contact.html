@@ -17,6 +17,9 @@
         <!-- Including jquery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script type="text/javascript" src="./script.js"></script>
+
+        <!--Google sheet-->
+         
     </head>
     <body>
         <!-- Navigation-->
@@ -58,7 +61,7 @@
                         <p class="ccontent"></p>
                         <div class="my-5">
                           
-                            <form id="contactForm" >
+                            <form id="contactForm" name="contact-form" method="post" action="https://script.google.com/macros/s/AKfycbzfnO4Eabf0EUHCOkBSm35yJ28Z3N3deZX6L-tnS_keUEsx_71MOH2YZNBSXK34iOt0/exec">
                                 <div class="form-floating">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                     <label for="name">Name</label>
@@ -81,8 +84,10 @@
                                     <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                 </div>
                                 <br />
-                             
-                                <button class="btn btn-primary text-uppercase" id="submitButton" type="submit">Send</button>
+                                <center><div >
+                                <input type="submit" class="btn btn-primary text-uppercase mr-9 " id="submitButton" value="Send">
+                                <a href="mailto:durveshchaudhari11@gmail.com"><input type="button" class="btn btn-primary text-uppercase mr-9 " value="Mail Me"></a>
+                                <div></center>
                             </form>
                         </div>
                     </div>

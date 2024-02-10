@@ -17,6 +17,9 @@
          <!-- Including jquery-->
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
          <script type="text/javascript" src="./script.js"></script>
+         <style>
+            #more {display: none;}
+        </style>
     </head>
     <body>
         <!-- Navigation-->
@@ -59,10 +62,13 @@
                         <p class="blog2Content1"></p>
                         <p class="blog2Content2"></p>
                         <p class="blog2Content3"></p>
+                        <span id="dots">...</span><span id="more">
                         <p class="blog2Content4"></p>
                         <p class="blog2Content5"></p>
                         <p class="blog2Content6"></p>
                         <p class="blog2Content7"></p>
+                    </span></p>
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
                     </div>
                 </div>
             </div>
